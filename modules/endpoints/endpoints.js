@@ -1,4 +1,4 @@
-const host = 'https://car-dealer-shop.herokuapp.com';
+const host = 'https://car-dealer-shop-back-embeded.herokuapp.com';
 //  one slash can destroy everythink
 
 export const GET_ALL_CARS_URI = `${host}/api/cars`;
