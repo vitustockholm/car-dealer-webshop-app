@@ -1,0 +1,26 @@
+{
+  "name": "1_frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "start index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitustockholm/car-dealer-webshop-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vitustockholm/car-dealer-webshop-app/issues"
+  },
+  "engines": {
+    "node": "14.17.1"
+  },
+  "homepage": "https://github.com/vitustockholm/car-dealer-webshop-app#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
