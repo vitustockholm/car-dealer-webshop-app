@@ -23,8 +23,7 @@ const getUser = () => {
         showCars(data);
       });
   } else {
-    location.href =
-      'https://car-dealer-shop.herokuapp.com/1_frontend/pages/login.html';
+    location.href = 'https://car-dealer-shop.herokuapp.com/pages/login.html';
   }
 };
 
