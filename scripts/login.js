@@ -47,7 +47,7 @@ const loginUser = (e) => {
         localStorage.setItem('user', JSON.stringify(data.userId));
 
         location.href =
-          'https://car-dealer-shop-back-embeded.herokuapp.com/api/users/login';
+          'https://car-dealer-shop.herokuapp.com/1_frontend/pages/my-account.html';
       }
     });
 };
@@ -107,7 +107,7 @@ const signUpUser = (e) => {
         localStorage.setItem('user', JSON.stringify(data.userId));
 
         location.href =
-          'https://car-dealer-shop-back-embeded.herokuapp.com/api/users/signup';
+          'https://car-dealer-shop.herokuapp.com/1_frontend/pages/my-account.html';
       }
     });
 };
