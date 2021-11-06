@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best Place To Sell Your Car</title>
+    <!-- CUSTOM JS -->
+    <!-- -components- -->
+    <script defer src="../components/nav.js"></script>
+    <!-- logic -->
+    <script defer src="../scripts/my-account.js" type="module"></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../styles/1_resets.css" />
+    <link rel="stylesheet" href="../styles/2_utilities.css" />
+    <link rel="stylesheet" href="../styles/3_header.css" />
+    <link rel="stylesheet" href="../styles/4_my-account.css" />
+    <!-- Font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div>Cars Adverts</div>
+        <nav><!-- created using nav.js --></nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <section>
+          <h1 class="headline-1">Hello, <span id="user-name"></span></h1>
+        </section>
+        <section id="user">
+          <div id="user__info" class="card-shadow"></div>
+          <div id="user__cars">
+            <div id="user__cars-list"></div>
+            <div id="user__cars-add-new" class="card-shadow">
+              <h6>Have car for sale?</h6>
+              <h2>Enter Information</h2>
+
+              <form id="addNewCarForm" class="form">
+                <div class="form-control">
+                  <label class="form-label" for="carMake">Make</label>
+                  <input class="form-input" type="text" id="carMake" required />
+                </div>
+
+                <div class="form-control">
+                  <label class="form-label" for="carModel">Model</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="carModel"
+                    required
+                  />
+                </div>
+
+                <div class="form-control">
+                  <label class="form-label" for="carYear">Year</label>
+                  <input class="form-input" type="text" id="carYear" required />
+                </div>
+
+                <div class="form-control">
+                  <label class="form-label" for="carPrice">Price</label>
+                  <input
+                    class="form-input"
+                    type="text"
+                    id="carPrice"
+                    required
+                  />
+                </div>
+
+                <div class="form-control">
+                  <input
+                    type="submit"
+                    value="Add Car"
+                    class="btn-primary btn-primary-submit"
+                  />
+                </div>
+              </form>
+              <p
+                id="addCarForSaleMessage"
+                class="hidden form-message form-message-danger"
+              ></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer><div class="container"></div></footer>
+  </body>
+</html>
