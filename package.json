@@ -2,10 +2,10 @@
   "name": "1_frontend",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "dev": "start index.html",
-    "test": "start index.html"
+    "dev": "open index.html",
+    "test": "open index.html"
   },
   "repository": {
     "type": "git",
