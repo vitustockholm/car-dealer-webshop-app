@@ -44,7 +44,7 @@ const loginUser = (e) => {
         localStorage.setItem('user', JSON.stringify(data.userId));
 
         location.href =
-          'http://127.0.0.1:5500/1_frontend/pages/my-account.html';
+          'https://car-dealer-shop.herokuapp.com/1_frontend/pages/my-account.html';
       }
     });
 };
@@ -104,7 +104,7 @@ const signUpUser = (e) => {
         localStorage.setItem('user', JSON.stringify(data.userId));
 
         location.href =
-          'http://127.0.0.1:5500/1_frontend/pages/my-account.html';
+          'https://car-dealer-shop.herokuapp.com/1_frontend/pages/my-account.html';
       }
     });
 };

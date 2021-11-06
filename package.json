@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "start index.html"
+    "dev": "start index.html",
+    "test": "start index.html"
   },
   "repository": {
     "type": "git",
@@ -13,11 +13,11 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "npm": "7.22.0"
+  },
   "bugs": {
     "url": "https://github.com/vitustockholm/car-dealer-webshop-app/issues"
-  },
-  "engines": {
-    "node": "14.17.1"
   },
   "homepage": "https://github.com/vitustockholm/car-dealer-webshop-app#readme",
   "devDependencies": {
