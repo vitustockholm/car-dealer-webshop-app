@@ -1,4 +1,5 @@
-const host = 'https://car-dealer-shop.herokuapp.com/';
+const host = 'https://car-dealer-shop.herokuapp.com';
+//  one slash can destroy everythink
 
 export const GET_ALL_CARS_URI = `${host}/api/cars`;
 export const REGISTER_USER_URI = `${host}/api/users/signup`;
