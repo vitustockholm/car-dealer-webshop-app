@@ -48,7 +48,7 @@ const showUser = (userData) => {
 const logoutUser = () => {
   localStorage.removeItem('user');
 
-  location.href = 'https://car-dealer-shop.herokuapp.com/1_frontend/index.html';
+  location.href = 'https://car-dealer-shop.herokuapp.com/';
 };
 
 // Events
