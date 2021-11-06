@@ -14,18 +14,21 @@ const loginMessageElement = document.querySelector('#loginMessage');
 
 // Funtions
 const loginUser = (e) => {
+  // prevention helps sometimes sometimes
   e.preventDefault();
 
+  // user formatation
   const user = {
     email: e.target.loginEmail.value,
     password: e.target.loginPassword.value,
   };
-
+  // check inputed data from POST fetched data
   return fetch(LOGIN_USER_URI, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
     },
+    // stringify
     body: JSON.stringify(user),
   })
     .then((res) => res.json())
