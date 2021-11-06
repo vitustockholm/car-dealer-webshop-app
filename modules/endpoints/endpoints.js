@@ -1,4 +1,4 @@
-const host = 'http://localhost:5000';
+const host = 'https://car-dealer-shop.herokuapp.com/';
 
 export const GET_ALL_CARS_URI = `${host}/api/cars`;
 export const REGISTER_USER_URI = `${host}/api/users/signup`;
