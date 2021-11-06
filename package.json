@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "dev": "open index.html",
-    "test": "open index.html"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -22,5 +21,8 @@
   "homepage": "https://github.com/vitustockholm/car-dealer-webshop-app#readme",
   "devDependencies": {
     "html-webpack-plugin": "^5.5.0"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
   }
 }
