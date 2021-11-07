@@ -10,7 +10,7 @@ const showCars = async () => {
   let cars = await fetch(GET_ALL_CARS_URI);
   let data = await cars.json();
 
-  console.log(data);
+  // console.log(data);
 
   latestCarsElement.innerHTML = data.reduce((total, item) => {
     total += item.cars.reduce((carsTotal, carsItem) => {
